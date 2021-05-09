@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0052cc"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imadf"
+                android:layout_width="100dp"
+                android:layout_height="111dp"
+
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="@drawable/logo"/>
+            <TextView
+                android:id="@+id/structure"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faculty"
+                android:textColor="#FFFFFF"
+                android:layout_margin="12dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/major"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/depatment"
+                android:drawableTop="@drawable/computer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer"
+                android:layout_margin="12dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/dep_computer"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/de_computer"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/bio"
+                android:drawableTop="@drawable/bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bio"
+                android:layout_margin="12dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/dep_bio"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/de_bio"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/ch"
+                android:drawableTop="@drawable/ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chemmistry"
+                android:layout_margin="12dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/dep_ch"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/de_ch"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/ph"
+                android:drawableTop="@drawable/ph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ph"
+                android:layout_margin="12dp"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/dep_ph"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/de_ph"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/math"
+                android:drawableTop="@drawable/math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/math"
+                android:layout_margin="12dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/dep_math"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/de_math"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:layout_margin="15dp"
+                android:text="@string/qhiastxiv" />
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:layout_margin="12dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txtabout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:layout_margin="15dp"
+                android:text="@string/txtabout" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
